@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116A6FC05285DCFE99117358 /* Pods_NashidIDVSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C09E8E997F90C68B55D092C /* Pods_NashidIDVSDKDemo.framework */; };
+		1A0B0B922BAB0380001D11A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B0B912BAB0380001D11A4 /* AppDelegate.swift */; };
+		1A0B0B942BAB0380001D11A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B0B932BAB0380001D11A4 /* SceneDelegate.swift */; };
+		1A0B0B962BAB0380001D11A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B0B952BAB0380001D11A4 /* ViewController.swift */; };
+		1A0B0B992BAB0380001D11A4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B0B982BAB0380001D11A4 /* Base */; };
+		1A0B0B9B2BAB0381001D11A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B0B9A2BAB0381001D11A4 /* Assets.xcassets */; };
+		1A0B0B9E2BAB0381001D11A4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B0B9D2BAB0381001D11A4 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0B0B8E2BAB0380001D11A4 /* NashidIDVSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NashidIDVSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0B0B912BAB0380001D11A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A0B0B932BAB0380001D11A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A0B0B952BAB0380001D11A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A0B0B982BAB0380001D11A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A0B0B9A2BAB0381001D11A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A0B0B9D2BAB0381001D11A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A0B0B9F2BAB0381001D11A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283A4CDBF215AEDEB233F9C1 /* Pods-NashidIDVSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NashidIDVSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-NashidIDVSDKDemo/Pods-NashidIDVSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5C09E8E997F90C68B55D092C /* Pods_NashidIDVSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NashidIDVSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8974DBB134779D602ED3BEB /* Pods-NashidIDVSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NashidIDVSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-NashidIDVSDKDemo/Pods-NashidIDVSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0B0B8B2BAB0380001D11A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116A6FC05285DCFE99117358 /* Pods_NashidIDVSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0B0B852BAB0380001D11A4 = {
+			isa = PBXGroup;
+			children = (
+				1A0B0B902BAB0380001D11A4 /* NashidIDVSDKDemo */,
+				1A0B0B8F2BAB0380001D11A4 /* Products */,
+				F93C8AECCA5EA4D7B04F06D8 /* Pods */,
+				C8EFA8C590912488F9D1EB3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0B0B8F2BAB0380001D11A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B0B8E2BAB0380001D11A4 /* NashidIDVSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0B0B902BAB0380001D11A4 /* NashidIDVSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A0B0B912BAB0380001D11A4 /* AppDelegate.swift */,
+				1A0B0B932BAB0380001D11A4 /* SceneDelegate.swift */,
+				1A0B0B952BAB0380001D11A4 /* ViewController.swift */,
+				1A0B0B972BAB0380001D11A4 /* Main.storyboard */,
+				1A0B0B9A2BAB0381001D11A4 /* Assets.xcassets */,
+				1A0B0B9C2BAB0381001D11A4 /* LaunchScreen.storyboard */,
+				1A0B0B9F2BAB0381001D11A4 /* Info.plist */,
+			);
+			path = NashidIDVSDKDemo;
+			sourceTree = "<group>";
+		};
+		C8EFA8C590912488F9D1EB3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C09E8E997F90C68B55D092C /* Pods_NashidIDVSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F93C8AECCA5EA4D7B04F06D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8974DBB134779D602ED3BEB /* Pods-NashidIDVSDKDemo.debug.xcconfig */,
+				283A4CDBF215AEDEB233F9C1 /* Pods-NashidIDVSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0B0B8D2BAB0380001D11A4 /* NashidIDVSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0B0BA22BAB0381001D11A4 /* Build configuration list for PBXNativeTarget "NashidIDVSDKDemo" */;
+			buildPhases = (
+				CB0D5604D2AB72FC7AA169B8 /* [CP] Check Pods Manifest.lock */,
+				1A0B0B8A2BAB0380001D11A4 /* Sources */,
+				1A0B0B8B2BAB0380001D11A4 /* Frameworks */,
+				1A0B0B8C2BAB0380001D11A4 /* Resources */,
+				BB324111EAF06860A60CB64C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NashidIDVSDKDemo;
+			productName = NashidIDVSDKDemo;
+			productReference = 1A0B0B8E2BAB0380001D11A4 /* NashidIDVSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0B0B862BAB0380001D11A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1A0B0B8D2BAB0380001D11A4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A0B0B892BAB0380001D11A4 /* Build configuration list for PBXProject "NashidIDVSDKDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0B0B852BAB0380001D11A4;
+			productRefGroup = 1A0B0B8F2BAB0380001D11A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0B0B8D2BAB0380001D11A4 /* NashidIDVSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0B0B8C2BAB0380001D11A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0B0B9B2BAB0381001D11A4 /* Assets.xcassets in Resources */,
+				1A0B0B9E2BAB0381001D11A4 /* Base in Resources */,
+				1A0B0B992BAB0380001D11A4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB324111EAF06860A60CB64C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NashidIDVSDKDemo/Pods-NashidIDVSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NashidIDVSDKDemo/Pods-NashidIDVSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NashidIDVSDKDemo/Pods-NashidIDVSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0D5604D2AB72FC7AA169B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NashidIDVSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0B0B8A2BAB0380001D11A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0B0B962BAB0380001D11A4 /* ViewController.swift in Sources */,
+				1A0B0B922BAB0380001D11A4 /* AppDelegate.swift in Sources */,
+				1A0B0B942BAB0380001D11A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A0B0B972BAB0380001D11A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0B0B982BAB0380001D11A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A0B0B9C2BAB0381001D11A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0B0B9D2BAB0381001D11A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A0B0BA02BAB0381001D11A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0B0BA12BAB0381001D11A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0B0BA32BAB0381001D11A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8974DBB134779D602ED3BEB /* Pods-NashidIDVSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z522U7ZP3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NashidIDVSDKDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera require to scan ID cards";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nad.NashidIDVSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A0B0BA42BAB0381001D11A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283A4CDBF215AEDEB233F9C1 /* Pods-NashidIDVSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z522U7ZP3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NashidIDVSDKDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera require to scan ID cards";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nad.NashidIDVSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0B0B892BAB0380001D11A4 /* Build configuration list for PBXProject "NashidIDVSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0B0BA02BAB0381001D11A4 /* Debug */,
+				1A0B0BA12BAB0381001D11A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0B0BA22BAB0381001D11A4 /* Build configuration list for PBXNativeTarget "NashidIDVSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0B0BA32BAB0381001D11A4 /* Debug */,
+				1A0B0BA42BAB0381001D11A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0B0B862BAB0380001D11A4 /* Project object */;
+}

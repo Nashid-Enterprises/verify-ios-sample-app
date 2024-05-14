@@ -1,0 +1,20 @@
+# Ignore log files
+*.log
+
+# Ignore build directory
+build/
+
+# Ignore opencv2.framework directory
+**/opencv2.framework/
+**/IDVSDK.framework/
+
+# Ignore CocoaPods files
+Pods/
+Podfile.lock
+Pods.xcodeproj/
+*.xcworkspace/
+
+# Ignore SPM binary artifacts
+Packages/
+.build/
+
