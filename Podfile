@@ -6,7 +6,7 @@ target 'NashidIDVSDKDemo' do
   use_frameworks!
 
   # Pods for NashidIDVSDKDemo
-  pod 'Nashid_SDK', :git => "https://github.com/Nashid-Enterprises/verify-ios-sdk-public.git"
+  pod 'Nashid_SDK', '2.0.0'
 
 end
 
